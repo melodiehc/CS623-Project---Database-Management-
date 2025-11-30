@@ -1,4 +1,4 @@
-# CS623-Project---Database-Management-
+
 
 # CS623 Transactional Database Project  
 **Author:** Melodie Cornelly  
