@@ -32,8 +32,8 @@ Before running the project, make sure you have the following installed:
   ```bash
   pip install psycopg2-binary
 
-**Once you run the program**
-You will see the following menu:
+**Once you run the program
+You will see the following menu:**
 
 === CS623 Project Menu ===
 1. Delete product p1
