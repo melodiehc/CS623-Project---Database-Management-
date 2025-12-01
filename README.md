@@ -9,8 +9,8 @@
 ---
 
 ## 📌 Project Overview
-This project implements a **transactional database application** using **PostgreSQL** and **Python (psycopg2)**.  
-It demonstrates how ACID properties (Atomicity, Consistency, Isolation, Durability) are enforced through a series of update transactions involving three database tables:
+This project executes a **transactional database application** using **PostgreSQL** and **Python (psycopg2)**.  
+It demonstrates how ACID properties (Atomicity, Consistency, Isolation, Durability) are enforced through transactions involving three database tables:
 
 - **Product(prod, pname, price)**
 - **Depot(dep, addr, volume)**
