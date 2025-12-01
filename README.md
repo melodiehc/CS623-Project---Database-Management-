@@ -20,6 +20,29 @@ Foreign key constraints with **ON DELETE CASCADE** and **ON UPDATE CASCADE** ens
 
 The Python program provides a **menu-driven interface** where each option executes one of the required transactions inside a controlled SQL transaction block.
 
+
+## How to Run the Program/ Requirments
+Install psql, install psycopg2-binary library
+
+1. In terminal - run python CS623_project.py
+2. You will see:
+   === CS623 Project Menu ===
+1. Delete product p1
+2. Delete depot d1
+3. Rename product p1 → pp1
+4. Rename depot d1 → dd1
+5. Add product p100 + stock
+6. Add depot d100 + stock
+7. Show tables
+0. Exit
+
+Choose any option and then confirm changes by running
+SELECT * FROM product;
+SELECT * FROM depot;
+SELECT * FROM stock;
+
+
+
 ---
 
 ## 📊 Database Schema
