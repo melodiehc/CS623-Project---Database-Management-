@@ -32,10 +32,34 @@ Before running the project, make sure you have the following installed:
   ```bash
   pip install psycopg2-binary
 
+**Once you run the program**
+You will see the following menu:
+
+=== CS623 Project Menu ===
+1. Delete product p1
+2. Delete depot d1
+3. Rename product p1 → pp1
+4. Rename depot d1 → dd1
+5. Add product p100 + stock
+6. Add depot d100 + stock
+7. Show tables
+0. Exit
+
+
+Choose any option to execute a transaction.
+
+Then, open psql and confirm results with:
+
+SELECT * FROM product;
+SELECT * FROM depot;
+SELECT * FROM stock;
 
 
 
 ---
+
+
+
 
 ## 📊 Database Schema
 
