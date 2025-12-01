@@ -50,9 +50,9 @@ Choose any option to execute a transaction.
 
 Then, open psql and confirm results with:
 
-SELECT * FROM product;
-SELECT * FROM depot;
-SELECT * FROM stock;
+**SELECT * FROM product;**
+**SELECT * FROM depot;**
+**SELECT * FROM stock;**
 
 
 
