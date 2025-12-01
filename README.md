@@ -58,10 +58,12 @@ Then, open psql and confirm results with:
 
 ---
 
+## Image 
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/0d4feff6-c459-4943-8743-c458a60bd066" />
 
 
 
-## 📊 Database Schema
+##  Database Schema
 
 ```sql
 CREATE TABLE Product (
